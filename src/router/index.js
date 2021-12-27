@@ -9,15 +9,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+    meta: { title: "Home" },
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    path: "/projects",
+    name: "projects",
   },
 ];
 
@@ -27,4 +23,8 @@ const router = new VueRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = `${to.name} - ${process.env.VUE_APP_TITLE} `;
+  next();
+});
 export default router;
