@@ -4,6 +4,10 @@ module.exports = {
   darkMode: false,
 
   theme: {
+    fontFamily: {
+      sans: ['Ubuntu'],
+      serif: ['Ubuntu'],
+    },
     extend: {
       colors: {
         green: {
