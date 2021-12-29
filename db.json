@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Lorem Ipsum",
+      "tecnologies": [
+        {
+          "id": "1",
+          "name": "Mysql"
+        },
+        {
+          "id": "2",
+          "name": "Laravel"
+        },
+        {
+          "id": "3",
+          "name": "PHP"
+        },
+        {
+          "id": "4",
+          "name": "Tailwincss"
+        }
+      ]
+    }
+  ]
+}
