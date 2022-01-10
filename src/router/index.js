@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import Projects from "../views/Projects.vue";
 import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
@@ -14,6 +15,8 @@ const routes = [
   {
     path: "/projects",
     name: "projects",
+    component: Projects,
+    meta: { title: "Projects" },
   },
 ];
 

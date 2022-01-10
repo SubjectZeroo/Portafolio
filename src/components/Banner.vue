@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="px-12 py-12 mx-auto max-w-7xl md:px-12 lg:px-24 lg:py-24">
+    <div class="px-12 py-12 mx-auto max-w-7xl md:px-12">
       <div class="flex flex-wrap items-center justify-center">
         <div class="w-full lg:max-w-lg sm:max-w-full md:max-w-full">
           <!-- <div class=" w-full max-w-lg"> -->
