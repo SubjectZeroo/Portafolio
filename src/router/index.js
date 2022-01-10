@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: "/projects",
-    name: "projects",
+    name: "Projects",
     component: Projects,
     meta: { title: "Projects" },
   },

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="font-ubuntu">
     <NavBar />
     <router-view />
     <Footer />
@@ -16,4 +16,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+  @layer base {
+    body {
+      font-family: 'Ubuntu', serif;
+    }
+  }
+</style>

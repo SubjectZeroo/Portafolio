@@ -5,9 +5,10 @@
       <div class="px-4 py-12 mx-auto bg-gray-50 max-w-7xl sm:px-6 lg:px-16">
         <div class="flex flex-wrap items-baseline lg:justify-center">
           <span class="mt-2 text-sm font-light text-gray-600">
-            © 2021 Creador Por Jafeht Soturno.
+            Creador Por Jafeht Soturno © 2022
           </span>
         </div>
+        
       </div>
     </footer>
   </div>

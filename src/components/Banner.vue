@@ -38,7 +38,7 @@
           <p class="mb-8 text-base leading-relaxed text-left text-gray-500">
             ¡Bienvenidos a mi sitio web! aqui puedes encontrar información sobre
             mí y
-            <router-link class="text-green-950" :to="{ name: 'projects' }"
+            <router-link class="text-green-950" :to="{ name: 'Projects' }"
               >proyectos</router-link
             >
             en los que he trabajado o creado con fines de aprendizaje.

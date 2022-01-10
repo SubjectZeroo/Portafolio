@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col flex-1 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+    class="flex flex-col flex-1 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden mt-6">
     <div class="relative pb-48 overflow-hidden">
       <img
-        src="https://cdn.dribbble.com/uploads/28096/original/29bfe0a864e0f387e407a3cbfc03794c.png?1632770650"
-        alt=""
+        :src="project.img"
+        :alt="project.title"
         class="absolute inset-0 h-full w-full object-cover"
       />
     </div>

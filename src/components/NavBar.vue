@@ -78,7 +78,7 @@
           <li>
             <router-link
               class="relative flex flex-row items-center justify-center h-11 focus:outline-none text-gray-600 hover:text-green-950 border-l-4 border-transparent pr-6"
-              :to="{ name: 'projects' }"
+              :to="{ name: 'Projects' }"
             >
               <span class="inline-flex justify-center items-center ml-4">
                 <svg
@@ -104,7 +104,9 @@
           <li>
             <div class="flex flex-row items-center justify-center">
               <a
-                href=""
+                href="https://www.dropbox.com/s/j4q1rzr3gl63g86/Jafeht_Soturno_Resume_10-01-2022-14-00-43.pdf?dl=0"
+                target="_blank"
+                title="CV"
                 class="bg-green-950 hover:bg-green-400 text-white font-bold py-2 px-4 rounded inline-flex items-center justify-center"
               >
                 <svg

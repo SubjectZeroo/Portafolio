@@ -4,12 +4,7 @@
       <div class="title">
         <p class="text-4xl font-bold text-gray-600 mb-4">Proyectos</p>
         <p class="text-2xl font-light text-gray-400">
-          Siempre estoy trabajando en nuevos proyectos. Puedes encontrarlos en
-          mi
-          <a class="text-green-950" href="https://github.com/SubjectZeroo"
-            >GitHub</a
-          >
-          .
+          Proyectos en los que he trabajado o creado con fines de aprendizaje
         </p>
       </div>
     </div>
@@ -22,7 +17,7 @@
     </div>
     <div class="text-center mt-10">
       <router-link
-        :to="{ name: 'projects' }"
+        :to="{ name: 'Projects' }"
         class="bg-green-950 hover:bg-green-500 text-white font-bold py-2 px-4 rounded"
       >
         Ver Mas
